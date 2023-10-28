@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&family=Lumanosimo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lumanosimo', sans-serif;
+    font-size: 15px;
+}
+
+.header {
+    background-color: rgba(73, 68, 68, 0.377);
+    color: rgb(39, 37, 37);
+    padding: 15px;
+    width: 100%;
+}
+.logo {
+  width: 100px;
+  justify-content: left;
+  margin-left: 15px;
+}
+.nav-item button{
+  text-decoration: none;
+  border: 2px solid rgb(141, 138, 138);
+  padding: 5px 10px; 
+  border-radius: 10px;
+}
+
+.nav-item button:hover{
+  border: 2px solid rgb(141, 138, 138); 
+  background-color: rgb(216, 213, 213);
+  color: black;
+}
+.nav-item a {
+  text-decoration: none;
+  border: 2px solid rgb(141, 138, 138);
+  padding: 5px 10px; 
+  border-radius: 10px;
+}
+.nav-item a:hover {
+  border: 2px solid rgb(141, 138, 138); 
+  background-color: rgb(216, 213, 213);
+}
+
+
+body {
+  background-color: rgb(216, 213, 213);
+  color: rgb(54, 54, 51);
+}
+
+.d-flex {
+  color: black;
+}
+
+.style-img {
+  max-width:300px;
+  padding: 10px;
+}
+
+.style-img-oferta{
+  max-width: 350px;
+  padding: 10px;
+}
+
+.row{
+  justify-content: center;
+}
+
+.logo-style {
+    margin-left: -30px;
+    margin-right: 30px;
+}
+
+h1,h2, h3{
+  text-align: center;
+  padding: 25px;
+  font-size: 20px;
+}
+#nosotros{
+  text-justify: auto;
+}
+
+#productos{
+  text-align: center;
+}
+
+#footer {
+  background-color: rgba(73, 68, 68, 0.377);
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+  padding-top: 13px;
+  width: 100%;
+}
+
+h4{
+  font-size: 20px;
+}
+
+.nav-style{
+  list-style: none;
+  margin-left: -40px;
+}
+
+a{
+  color: black !important;
+  text-decoration: none;
+}
+
+
+.form{
+  padding: 15px;
+}
+
+.style-nosotros{
+  padding: 30px;
+}
+
+@media (max-width: 992px) {
+  .col-md-4 {
+      width: 100%; 
+      margin-bottom: 20px;
+  }
+  .col-md-6 {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+  .style-img {
+    max-width: 200px;
+    padding: 10px;
+  }
+
+  .style-img-oferta{
+    max-width: 200px;
+    padding: 10px;
+  }   
+  
+.textarea {
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  textarea {
+      width: 100%;
+  }
+  iframe{
+    width: 100%;
+  }
+}
+
+}
+

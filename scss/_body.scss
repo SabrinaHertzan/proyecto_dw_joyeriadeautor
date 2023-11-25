@@ -8,26 +8,31 @@ body {
 }
 
 .style-img {
-  max-width:300px;
+  max-width: 300px;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(255, 253, 253, 0.1);
   transition: transform 0.3s ease-in-out;
-  
 
+  &:hover {
+    transform: scale(1.1);
+  }
 }
-.style-img:hover {
-  transform: scale(1.1);
-}
 
-
-.style-img-oferta{
-
+.style-img-oferta {
   max-width: 350px;
   padding: 10px;
 }
 
-.video{
+.video {
   margin-bottom: 15px;
 }
- 
+
+@media screen and (max-width: 360px) {
+  .style-img {
+      width: 260px;
+  }
+  .style-img-oferta{
+    width: 260px;
+  }
+}

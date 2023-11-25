@@ -22,11 +22,15 @@ h1 {
 
 h4 {
   font-size: 20px;
+  padding-right: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(71, 69, 69, 0.575);
 }
 
 .nav-style {
   list-style: none;
-  margin-left: -40px;
+  margin-left: -10px;
+  text-align: left ;
 }
 
 a {
